@@ -1,13 +1,13 @@
 import logo from "@/assets/logo.jpg";
-import black from "@/assets/mockup.png";
-import white from "@/assets/mockupWhite.png";
-import red from "@/assets/mockupRed.png";
+import black from "@/assets/mockup.webp";
+import white from "@/assets/mockupWhite.webp";
+import red from "@/assets/mockupRed.webp";
 
 export const BRAND = {
   logo: logo,
   name: "Tip Top",
   tagline: "• Vranje •",
-  instagram: "https://instagram.hcom/tiptop_auto_perionica",
+  instagram: "https://www.instagram.com/tip_top_auto_perionica/",
   facebook: "https://facebook.com",
   phone: "+381 60 000 0000",
   city: "Vranje, Srbija",

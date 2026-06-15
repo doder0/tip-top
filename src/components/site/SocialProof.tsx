@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState } from "react";
-import tiptop1 from "@/assets/tiptop1.jpg";
-import tiptop2 from "@/assets/tiptop2.jpg";
-import tiptop3 from "@/assets/tiptop3.jpg";
-import tiptop4 from "@/assets/tiptp4.jpg";
-import tiptop5 from "@/assets/tiptop5.jpg";
-import tiptop6 from "@/assets/tiptop6.jpg";
-import tiptop7 from "@/assets/tiptop7.jpg";
-import tiptop8 from "@/assets/tiptop8.jpg";
+import tiptop1 from "@/assets/tiptop1.webp";
+import tiptop2 from "@/assets/tiptop2.webp";
+import tiptop3 from "@/assets/tiptop3.webp";
+import tiptop4 from "@/assets/tiptp4.webp";
+import tiptop5 from "@/assets/tiptop5.webp";
+import tiptop6 from "@/assets/tiptop6.webp";
+import tiptop7 from "@/assets/tiptop7.webp";
+import tiptop8 from "@/assets/tiptop8.webp";
 
 import { Instagram } from "lucide-react";
 import { BRAND } from "@/lib/product";
@@ -78,7 +78,7 @@ export function SocialProof() {
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-md border border-white/15 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-white/80 transition hover:border-primary hover:text-primary"
           >
-            <Instagram className="h-4 w-4" /> @tiptop
+            <Instagram className="h-4 w-4" /> @tip_top_auto_perionica
           </a>
         </div>
 
