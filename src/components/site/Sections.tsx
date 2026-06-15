@@ -1,8 +1,8 @@
 import { Instagram, Facebook, Phone, MapPin, SprayCan, Users, Shirt, Quote, Flame } from "lucide-react";
 import { BRAND } from "@/lib/product";
 import viralVideo from "@/assets/pipnigabato.mp4";
-import about from "@/assets/about.jpg";
-import cta from "@/assets/cta-bg.jpg";
+import about from "@/assets/about.webp";
+import cta from "@/assets/cta-bg.webp";
 
 export function Meaning() {
   return (

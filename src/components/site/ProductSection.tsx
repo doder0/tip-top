@@ -110,21 +110,30 @@ export function ProductSection() {
           </div>
 
           {/* Qty + CTA */}
-          <div className="flex flex-col gap-3 sm:flex-row sm:items-stretch">
-            <div className="inline-flex h-14 items-center rounded-md border-2 border-border bg-card">
-              <button onClick={() => setQty((q) => Math.max(1, q - 1))} className="grid h-full w-12 place-items-center text-muted-foreground hover:text-foreground" aria-label="Smanji količinu">
-                <Minus className="h-4 w-4" />
+          <div className="flex flex-col gap-3 sm:flex-row">
+            <div className="flex h-14 w-full items-center justify-between rounded-xl border-2 border-border bg-card px-2 sm:w-[140px]">
+               <button
+                onClick={() => setQty((q) => Math.max(1, q - 1))}
+                className="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-muted"
+              >
+              <Minus className="h-4 w-4" />
               </button>
-              <div className="w-10 text-center font-bold tabular-nums">{qty}</div>
-              <button onClick={() => setQty((q) => q + 1)} className="grid h-full w-12 place-items-center text-muted-foreground hover:text-foreground" aria-label="Povećaj količinu">
-                <Plus className="h-4 w-4" />
+
+              <span className="text-lg font-bold">{qty}</span>
+
+              <button
+              onClick={() => setQty((q) => q + 1)}
+              className="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-muted"
+              >
+              <Plus className="h-4 w-4" />
               </button>
             </div>
+
             <button
-              onClick={handleAdd}
-              className="group relative h-14 flex-1 overflow-hidden rounded-md bg-primary px-6 font-display text-xl tracking-wider text-brand-dark shadow-lg shadow-primary/30 transition hover:brightness-110 active:scale-[0.99]"
+            onClick={handleAdd}
+            className="h-14 flex-1 rounded-xl bg-primary px-6 font-display text-lg tracking-wider text-brand-dark shadow-lg shadow-primary/30 transition hover:brightness-110"
             >
-              KUPI ODMAH — {PRODUCT.priceFormatted}
+              KUPI ODMAH
             </button>
           </div>
 
