@@ -84,7 +84,6 @@ export function CartDrawer() {
             >
               NARUČI POUZEĆEM
             </button>
-            <p className="mt-2 text-center text-[11px] uppercase tracking-wider text-muted-foreground">Demo checkout — Shopify Storefront API uskoro</p>
           </div>
         )}
       </aside>
